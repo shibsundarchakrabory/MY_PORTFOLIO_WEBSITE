@@ -1,0 +1,36 @@
+
+
+footer{
+    width: 100vw;
+    height: 8vh;
+    background-color: #33f39c;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #212121; */
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

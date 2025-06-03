@@ -1,0 +1,119 @@
+h1{
+    color: #00ff95;
+    font-size: 10vw;
+}
+
+
+
+.sec-my-projects{
+    margin: 0;
+    padding: 0;
+    height: 260vh;
+    width: 100%;
+    /* background: #ffffff; */
+
+    padding-bottom: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+
+.skill-card{
+    height: 80vh;
+    width: 40vw;
+    background: #dbffdf;
+    margin: 20px 0px;
+    border: 4px solid #00ff95;
+    border-radius: 30px;
+    
+    /* padding: 10px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skill-card > img {
+    height: 200px;
+    width:  200px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+.asses-util{
+    width: 90%;
+    height: 80px;
+    background: #00ff95;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.asses-util > h2 {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+
+
+
+.asses-util > button {
+    width: 80%;
+    height: 20px;
+    background: #000;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .skill-card > img {
+        height: 350px;
+        width:  350px;
+    }
+    .skill-card {
+        height: 80vh;
+        width: 90vw;
+    }
+
+    .sec-my-projects {
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .asses-util {
+        width: 90%;
+        height: 80px;
+    }
+
+    .asses-util > button {
+        width: 80%;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+   
+}
+

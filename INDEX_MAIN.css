@@ -1,0 +1,190 @@
+:root{
+    --img-hight:200px ;
+    --img-width:200px ;
+    --img-border: 2px solid #1df063;
+}
+
+
+.sec-me{
+    height:60vh;
+    width: 100%; /* changed from 100vw */
+    background: #7b7b7b00;
+    /* border-bottom-color:#1df063 ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.my-img{
+    height: var(--img-hight) ;
+    width: var(--img-width) ;
+    border: var(--img-border);
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.my-img{
+    box-shadow: 0 0 10px rgb(55, 234, 192);
+}
+
+
+
+.my-img>img{
+    height: var(--img-hight) ;
+    width:  var(--img-width) ;
+    border-radius: 50%;
+}
+
+
+
+.my-name{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1df063;
+}
+
+
+
+
+
+
+hr{
+    height: 5px;
+    width: 80%;
+    border: 1px solid #000000;
+    margin: 20px auto;
+
+    box-shadow: 0 10px 50px 5px #5ffa81;
+
+}
+
+
+
+
+.sec-me-2{
+    height: 60vh;
+    width: 100%; /* changed from 100vw */
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+.sec-me-2 > p {
+    width: 80vw;
+}
+
+
+
+
+
+.sec-me-3{
+    height: 50vh;
+    width: 100%; /* changed from 100vw */
+    margin: 10px 0px;
+    background: #00000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-me-3 > h2 {
+    color: #1df063;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.skils{
+    background: #000;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.my-skills{
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.my-skills > li{
+    list-style: none;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .sec-me {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .my-img,
+    .my-img > img {
+        --img-hight: 120px;
+        --img-width: 120px;
+        height: var(--img-hight);
+        width: var(--img-width);
+    }
+
+    .my-name {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .my-img,
+    .my-img > img {
+        --img-hight: 90px;
+        --img-width: 90px;
+        height: var(--img-hight);
+        width: var(--img-width);
+    }
+
+    .my-name {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
