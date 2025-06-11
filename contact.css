@@ -1,10 +1,13 @@
-
+:root{
+    /* --contact-bg: #212121; */
+    --contact-bg: #CBF1F5;
+}
 
 
 .main{
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
-    background: #00000000;
+    /* background: var(--contact-bg); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,8 +18,9 @@
 .main-div{
     height:50vh;
     width: 50vw;
-    background: #000000;
-    color: #ffffff;
+    background: var(--contact-bg);
+    /* color: #ffffff; */
+    color: #000000;
 
     border-radius: 50PX;
     padding: 20px;
@@ -46,11 +50,14 @@
 
 
 .main-div >h2 > span{
-    color: #5ffa81;
+    /* color: #5ffa81; */
+    color: #37ccea;
 }
 
 .main-div >h2 > span > a{
-    color: #5ffa81;
+    /* color: #5ffa81; */
+    color: #37ccea;
+    text-decoration: none;
 }
 
 

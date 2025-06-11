@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +5,10 @@
 
 
 :root{
-    --page-background: #000000;
+    /* --page-background: #212122; */
+    /* --page-background: #E3FDFD; */
+    --page-background: #71C9CE;
+    --sclore-bar-bg: #00000000;
 }
 
 
@@ -15,7 +17,9 @@
 
 html,
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 
@@ -27,10 +31,36 @@ body{
 
 
 
-/* html{
 
-} */
+    
 
+
+/* Custom Webkit Scrollbar Styles */
+/* filepath: d:\VSCODE\AAAAA\MY_PORTFOLIO_WEBSITE\INDEX.css */
+
+/* width of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    background: var(--sclore-bar-bg);
+    /* background: var(--sclore-bar-bg); */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--sclore-bar-bg); 
+    /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1df063;
+    /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #13a34b;
+}
 
 
 

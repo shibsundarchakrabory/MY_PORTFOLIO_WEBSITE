@@ -2,6 +2,8 @@
     --img-hight:200px ;
     --img-width:200px ;
     --img-border: 2px solid #1df063;
+    /* --text:#37eac0; */
+    --text:#000000;
 }
 
 
@@ -26,7 +28,7 @@
 }
 
 .my-img{
-    box-shadow: 0 0 10px rgb(55, 234, 192);
+    box-shadow: 0 0 10px #37eac0;
 }
 
 
@@ -42,7 +44,7 @@
 .my-name{
     font-weight: bold;
     font-size: 30px;
-    color: #1df063;
+    color: var(--text);
 }
 
 
@@ -55,8 +57,9 @@ hr{
     width: 80%;
     border: 1px solid #000000;
     margin: 20px auto;
-
+    background: #000;
     box-shadow: 0 10px 50px 5px #5ffa81;
+    border-radius: 10px;
 
 }
 
@@ -66,7 +69,8 @@ hr{
 .sec-me-2{
     height: 60vh;
     width: 100%; /* changed from 100vw */
-    color: azure;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;}
@@ -91,8 +95,16 @@ hr{
     align-items: center;
 }
 
+
+.sec-me-3 > h1 > {
+    color: #000;
+}
+
+
+
+
 .sec-me-3 > h2 {
-    color: #1df063;
+    color: #000000;
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;

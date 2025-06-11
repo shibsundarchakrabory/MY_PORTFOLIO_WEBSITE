@@ -1,9 +1,16 @@
 
 
+
+
+:root{
+    /* --bg: #60efbd; */
+    --bg: #A6E3E9;
+}
+
 footer{
     width: 100vw;
-    height: 8vh;
-    background-color: #33f39c;
+    height: 3vh;
+    background-color: var(--bg);
     padding: 20px;
     text-align: center;
     font-size: 14px;
@@ -28,9 +35,14 @@ footer{
 
 
 
+footer{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
 
 
 
-
-
+footer{
+    border: 2px solid #000000;
+}
 
